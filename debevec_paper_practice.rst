@@ -20,14 +20,17 @@ Response functions.
 =====
 
 Red band
+
 .. image:: result_pictures/debevec_paper_practice/red_band_response_function.jpg
    :width: 40pt
 
 Green band
+
 .. image:: result_pictures/debevec_paper_practice/green_band_response_function.jpg
    :width: 40pt
 
 Blue band
+
 .. image:: result_pictures/debevec_paper_practice/blue_band_response_function.jpg
    :width: 40pt      
 
