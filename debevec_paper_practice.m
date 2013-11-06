@@ -1,7 +1,12 @@
 %% Input parameters
 
 % Names of the images to be used
-images_names = {'sample_pictures/StLouisArchMultExpEV-4.72.JPG' 'sample_pictures/800px-StLouisArchMultExpEV-1.82.JPG' 'sample_pictures/800px-StLouisArchMultExpEV+1.51.JPG' 'sample_pictures/StLouisArchMultExpEV+4.09.JPG'};
+images_names = {
+                'sample_pictures/StLouisArchMultExpEV-4.72.JPG' 
+                'sample_pictures/800px-StLouisArchMultExpEV-1.82.JPG' 
+                'sample_pictures/800px-StLouisArchMultExpEV+1.51.JPG' 
+                'sample_pictures/StLouisArchMultExpEV+4.09.JPG'
+               };
 
 % Natural logarithm of shutter speed for each of the above images
 B = [-6 -4 -2 0];
