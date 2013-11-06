@@ -20,10 +20,10 @@ Result Images.
 
 Raw tone mapped image.
 
-.. image:: sample_pictures/simple_tone_mapped_img.jpg
+.. image:: result_pictures/debevec_paper_practice/simple_tone_mapped_img.jpg
    :width: 40pt
    
 Tone mapped image with local histogram equalization.
 
-.. image:: sample_pictures/tone_mapped_img_local_hist_equalization.jpg
+.. image:: result_pictures/debevec_paper_practice/tone_mapped_img_local_hist_equalization.jpg
    :width: 40pt
