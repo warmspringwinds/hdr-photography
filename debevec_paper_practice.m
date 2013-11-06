@@ -121,6 +121,17 @@ for band = 1:bands_amount
     final_image(:, :, band) = ( final_image(:, :, band) + abs(band_min) ) / ( band_max + abs(band_min) );
 end
 
-img = im2uint8(final_image);
+tone_mapped_img_original = im2uint8(final_image);
 
+figure, imshow(tone_mapped_img_original);
+title('Simple tonemapped image');
+
+%% Apply Local histogram equalization to enhance contrast
+
+for band = 1:3
+    tone_mapped_img_hist_eq(:, :, band) = adapthisteq(tone_mapped_img_original(:, :, band), 'NumTiles', [3 3]);
+end
+
+figure, imshow(tone_mapped_img_hist_eq);
+title('Tonemapped image with local histogram equalization');
 
