@@ -15,3 +15,15 @@ Used Images.
 
 .. image:: sample_pictures/StLouisArchMultExpEV+4.09.JPG
     :width: 40pt
+    
+Result Images.
+
+Raw tone mapped image.
+
+.. image:: sample_pictures/StLouisArchMultExpEV-4.72.JPG
+   :width: 40pt
+   
+Tone mapped image with local histogram equalization.
+
+.. image:: sample_pictures/StLouisArchMultExpEV-4.72.JPG
+   :width: 40pt
